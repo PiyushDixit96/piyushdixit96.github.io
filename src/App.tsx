@@ -14,7 +14,7 @@ function App() {
   return (
     <HelmetProvider>
       <ThemeProvider>
-        <Router basename={process.env.NODE_ENV === 'production' ? '/piyushdixit96.github.io' : '/'}>
+        <Router basename={import.meta.env.BASE_URL}>
           <div className="App">
             <div className="global-bg-elements"></div>
             <SEO />
