@@ -8,7 +8,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: process.env.NODE_ENV === 'production' ? '/' : '/',
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: true

@@ -47,6 +47,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6"
             >
+              <span className="gradient-text text-2xl font-bold mb-6 block">Only Demo Portfolio</span>
               <span className={isDark ? 'text-white' : 'text-gray-800'}>
                 Hi, I'm{' '}
               </span>
